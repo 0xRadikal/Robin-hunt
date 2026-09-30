@@ -1,0 +1,29 @@
+[
+  {
+    "ts": 1789575298,
+    "date": "2026-09-16 16:14",
+    "x_handle": "FREE",
+    "domains": {
+      "coinkins.xyz": "NO_DNS",
+      "coinkins.io": "NO_DNS",
+      "coinkins.com": "NO_DNS"
+    },
+    "opensea": "NEEDS_KEY",
+    "followers": 0,
+    "allowlist": 0
+  },
+  {
+    "ts": 1789578335,
+    "date": "2026-09-16 17:05",
+    "x_handle": "TAKEN",
+    "domains": {
+      "coinkins.xyz": "REGISTERED 2026-09-16->2027-09-16 dns:propagating",
+      "coinkins.io": "AVAILABLE",
+      "coinkins.com": "AVAILABLE"
+    },
+    "opensea": "NEEDS_KEY",
+    "telegram": "EXISTS (1 subscriber)",
+    "followers": 1,
+    "allowlist": 0
+  }
+]

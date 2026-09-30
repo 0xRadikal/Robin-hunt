@@ -1,0 +1,629 @@
+{
+  "pudgypenguins": {
+    "size": [
+      500,
+      500
+    ],
+    "saturation": 0.129,
+    "brightness": 0.952,
+    "complexity": 0.312,
+    "unique_colors_48px": 440,
+    "dominant": [
+      {
+        "rgb": [
+          239,
+          248,
+          248
+        ],
+        "hex": "#eff8f8",
+        "share": 0.846
+      },
+      {
+        "rgb": [
+          130,
+          172,
+          254
+        ],
+        "hex": "#82acfe",
+        "share": 0.105
+      },
+      {
+        "rgb": [
+          120,
+          160,
+          240
+        ],
+        "hex": "#78a0f0",
+        "share": 0.019
+      },
+      {
+        "rgb": [
+          26,
+          30,
+          34
+        ],
+        "hex": "#1a1e22",
+        "share": 0.018
+      },
+      {
+        "rgb": [
+          91,
+          94,
+          95
+        ],
+        "hex": "#5b5e5f",
+        "share": 0.011
+      }
+    ]
+  },
+  "azuki": {
+    "size": [
+      400,
+      400
+    ],
+    "saturation": 0.654,
+    "brightness": 0.754,
+    "complexity": 0.074,
+    "unique_colors_48px": 228,
+    "dominant": [
+      {
+        "rgb": [
+          187,
+          54,
+          71
+        ],
+        "hex": "#bb3647",
+        "share": 0.91
+      },
+      {
+        "rgb": [
+          244,
+          243,
+          243
+        ],
+        "hex": "#f4f3f3",
+        "share": 0.065
+      },
+      {
+        "rgb": [
+          213,
+          151,
+          159
+        ],
+        "hex": "#d5979f",
+        "share": 0.015
+      },
+      {
+        "rgb": [
+          198,
+          103,
+          115
+        ],
+        "hex": "#c66773",
+        "share": 0.005
+      },
+      {
+        "rgb": [
+          187,
+          73,
+          88
+        ],
+        "hex": "#bb4958",
+        "share": 0.004
+      }
+    ]
+  },
+  "boredapeyachtclub": {
+    "size": [
+      500,
+      500
+    ],
+    "saturation": 0.0,
+    "brightness": 0.076,
+    "complexity": 0.188,
+    "unique_colors_48px": 180,
+    "dominant": [
+      {
+        "rgb": [
+          0,
+          0,
+          0
+        ],
+        "hex": "#000000",
+        "share": 0.877
+      },
+      {
+        "rgb": [
+          242,
+          242,
+          242
+        ],
+        "hex": "#f2f2f2",
+        "share": 0.046
+      },
+      {
+        "rgb": [
+          98,
+          98,
+          98
+        ],
+        "hex": "#626262",
+        "share": 0.029
+      },
+      {
+        "rgb": [
+          159,
+          159,
+          159
+        ],
+        "hex": "#9f9f9f",
+        "share": 0.028
+      },
+      {
+        "rgb": [
+          35,
+          35,
+          35
+        ],
+        "hex": "#232323",
+        "share": 0.02
+      }
+    ]
+  },
+  "doodles-official": {
+    "size": [
+      500,
+      500
+    ],
+    "saturation": 0.326,
+    "brightness": 0.915,
+    "complexity": 0.41,
+    "unique_colors_48px": 769,
+    "dominant": [
+      {
+        "rgb": [
+          254,
+          172,
+          218
+        ],
+        "hex": "#feacda",
+        "share": 0.709
+      },
+      {
+        "rgb": [
+          251,
+          210,
+          179
+        ],
+        "hex": "#fbd2b3",
+        "share": 0.1
+      },
+      {
+        "rgb": [
+          133,
+          178,
+          250
+        ],
+        "hex": "#85b2fa",
+        "share": 0.08
+      },
+      {
+        "rgb": [
+          202,
+          200,
+          250
+        ],
+        "hex": "#cac8fa",
+        "share": 0.065
+      },
+      {
+        "rgb": [
+          29,
+          26,
+          32
+        ],
+        "hex": "#1d1a20",
+        "share": 0.046
+      }
+    ]
+  },
+  "moonbirds": {
+    "size": [
+      500,
+      500
+    ],
+    "saturation": 0.0,
+    "brightness": 0.775,
+    "complexity": 0.328,
+    "unique_colors_48px": 191,
+    "dominant": [
+      {
+        "rgb": [
+          254,
+          254,
+          254
+        ],
+        "hex": "#fefefe",
+        "share": 0.735
+      },
+      {
+        "rgb": [
+          3,
+          3,
+          3
+        ],
+        "hex": "#030303",
+        "share": 0.207
+      },
+      {
+        "rgb": [
+          219,
+          219,
+          219
+        ],
+        "hex": "#dbdbdb",
+        "share": 0.022
+      },
+      {
+        "rgb": [
+          160,
+          160,
+          160
+        ],
+        "hex": "#a0a0a0",
+        "share": 0.019
+      },
+      {
+        "rgb": [
+          97,
+          97,
+          97
+        ],
+        "hex": "#616161",
+        "share": 0.017
+      }
+    ]
+  },
+  "milady": {
+    "size": [
+      500,
+      500
+    ],
+    "saturation": 0.208,
+    "brightness": 0.63,
+    "complexity": 0.52,
+    "unique_colors_48px": 1998,
+    "dominant": [
+      {
+        "rgb": [
+          223,
+          221,
+          216
+        ],
+        "hex": "#dfddd8",
+        "share": 0.618
+      },
+      {
+        "rgb": [
+          84,
+          91,
+          101
+        ],
+        "hex": "#545b65",
+        "share": 0.105
+      },
+      {
+        "rgb": [
+          46,
+          56,
+          72
+        ],
+        "hex": "#2e3848",
+        "share": 0.102
+      },
+      {
+        "rgb": [
+          30,
+          34,
+          40
+        ],
+        "hex": "#1e2228",
+        "share": 0.099
+      },
+      {
+        "rgb": [
+          149,
+          93,
+          174
+        ],
+        "hex": "#955dae",
+        "share": 0.076
+      }
+    ]
+  },
+  "cryptopunks": {
+    "size": [
+      120,
+      120
+    ],
+    "saturation": 0.371,
+    "brightness": 0.538,
+    "complexity": 0.328,
+    "unique_colors_48px": 267,
+    "dominant": [
+      {
+        "rgb": [
+          99,
+          133,
+          150
+        ],
+        "hex": "#638596",
+        "share": 0.753
+      },
+      {
+        "rgb": [
+          11,
+          9,
+          9
+        ],
+        "hex": "#0b0909",
+        "share": 0.109
+      },
+      {
+        "rgb": [
+          175,
+          140,
+          98
+        ],
+        "hex": "#af8c62",
+        "share": 0.1
+      },
+      {
+        "rgb": [
+          155,
+          22,
+          93
+        ],
+        "hex": "#9b165d",
+        "share": 0.02
+      },
+      {
+        "rgb": [
+          93,
+          93,
+          84
+        ],
+        "hex": "#5d5d54",
+        "share": 0.019
+      }
+    ]
+  },
+  "rare-friends-genesis": {
+    "size": [
+      500,
+      500
+    ],
+    "saturation": 0.0,
+    "brightness": 0.426,
+    "complexity": 0.316,
+    "unique_colors_48px": 112,
+    "dominant": [
+      {
+        "rgb": [
+          17,
+          17,
+          17
+        ],
+        "hex": "#111111",
+        "share": 0.489
+      },
+      {
+        "rgb": [
+          238,
+          238,
+          238
+        ],
+        "hex": "#eeeeee",
+        "share": 0.395
+      },
+      {
+        "rgb": [
+          21,
+          21,
+          21
+        ],
+        "hex": "#151515",
+        "share": 0.082
+      },
+      {
+        "rgb": [
+          150,
+          150,
+          150
+        ],
+        "hex": "#969696",
+        "share": 0.022
+      },
+      {
+        "rgb": [
+          93,
+          93,
+          93
+        ],
+        "hex": "#5d5d5d",
+        "share": 0.013
+      }
+    ]
+  },
+  "mutant-ape-yacht-club": {
+    "size": [
+      500,
+      500
+    ],
+    "saturation": 0.242,
+    "brightness": 0.213,
+    "complexity": 0.184,
+    "unique_colors_48px": 385,
+    "dominant": [
+      {
+        "rgb": [
+          27,
+          27,
+          30
+        ],
+        "hex": "#1b1b1e",
+        "share": 0.86
+      },
+      {
+        "rgb": [
+          207,
+          220,
+          62
+        ],
+        "hex": "#cfdc3e",
+        "share": 0.053
+      },
+      {
+        "rgb": [
+          216,
+          229,
+          65
+        ],
+        "hex": "#d8e541",
+        "share": 0.035
+      },
+      {
+        "rgb": [
+          90,
+          97,
+          31
+        ],
+        "hex": "#5a611f",
+        "share": 0.031
+      },
+      {
+        "rgb": [
+          156,
+          166,
+          49
+        ],
+        "hex": "#9ca631",
+        "share": 0.021
+      }
+    ]
+  },
+  "clonex": {
+    "size": [
+      120,
+      120
+    ],
+    "saturation": 0.044,
+    "brightness": 0.96,
+    "complexity": 0.148,
+    "unique_colors_48px": 291,
+    "dominant": [
+      {
+        "rgb": [
+          254,
+          254,
+          254
+        ],
+        "hex": "#fefefe",
+        "share": 0.967
+      },
+      {
+        "rgb": [
+          28,
+          25,
+          23
+        ],
+        "hex": "#1c1917",
+        "share": 0.014
+      },
+      {
+        "rgb": [
+          103,
+          90,
+          98
+        ],
+        "hex": "#675a62",
+        "share": 0.007
+      },
+      {
+        "rgb": [
+          92,
+          83,
+          42
+        ],
+        "hex": "#5c532a",
+        "share": 0.006
+      },
+      {
+        "rgb": [
+          165,
+          155,
+          157
+        ],
+        "hex": "#a59b9d",
+        "share": 0.006
+      }
+    ]
+  },
+  ">> COINKINS (ours)": {
+    "size": [
+      400,
+      400
+    ],
+    "saturation": 0.581,
+    "brightness": 0.325,
+    "complexity": 0.234,
+    "unique_colors_48px": 282,
+    "dominant": [
+      {
+        "rgb": [
+          12,
+          15,
+          27
+        ],
+        "hex": "#0c0f1b",
+        "share": 0.746
+      },
+      {
+        "rgb": [
+          77,
+          163,
+          253
+        ],
+        "hex": "#4da3fd",
+        "share": 0.179
+      },
+      {
+        "rgb": [
+          43,
+          112,
+          212
+        ],
+        "hex": "#2b70d4",
+        "share": 0.052
+      },
+      {
+        "rgb": [
+          41,
+          94,
+          164
+        ],
+        "hex": "#295ea4",
+        "share": 0.014
+      },
+      {
+        "rgb": [
+          24,
+          53,
+          96
+        ],
+        "hex": "#183560",
+        "share": 0.009
+      }
+    ]
+  }
+}

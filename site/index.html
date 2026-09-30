@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Coinkins — building on Arc, in public</title>
+<meta name="description" content="Coinkins: an NFT project being built in public on Arc, Circle's stablecoin-native L1. Every claim on this page is verifiable on-chain.">
+<meta property="og:title" content="Coinkins — building on Arc, in public">
+<meta property="og:description" content="We deployed a full OpenSea SeaDrop collection on Arc for $0.22 in gas. Every transaction hash is below. Verify it yourself.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:image" content="https://coinkins.xyz/og.png">
+<meta name="twitter:image" content="https://coinkins.xyz/og.png">
+<!-- Inline data-URI favicon: no separate file, so it can never 404.
+     A missing favicon was producing a real 404 in the browser console. -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%20width='64'%20height='64'%3E%3Ctitle%3ECoinkins%3C/title%3E%3Ccircle%20cx='32.00'%20cy='32.00'%20r='32.00'%20fill='%23122244'/%3E%3Cpath%20d='M%2050.9559%2046.7198%20A%2024.0000%2024.0000%200%201%201%2050.9559%2017.2802%20A%203.5000%203.5000%200%200%201%2045.4271%2021.5735%20A%2017.0000%2017.0000%200%201%200%2045.4271%2042.4265%20A%203.5000%203.5000%200%200%201%2050.9559%2046.7198%20Z'%20fill='%23EAF1FA'/%3E%3Ccircle%20cx='32.00'%20cy='32.00'%20r='12.00'%20fill='%23F3B63A'/%3E%3C/svg%3E">
+<style>
+:root{--bg:#0C172E;--panel:#122244;--line:#1E3358;--fg:#EAF1FA;--mut:#96AAC4;--acc:#F3B63A;--ok:#F3B63A}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--fg);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:880px;margin:0 auto;padding:0 20px}
+header{padding:64px 0 40px;border-bottom:1px solid var(--line)}
+.logo{display:flex;align-items:center;gap:14px;margin-bottom:22px}
+.mark{width:52px;height:52px;flex:0 0 auto;display:block}
+h1{font-size:clamp(28px,5vw,44px);letter-spacing:-.02em;line-height:1.15}
+.tag{color:var(--mut);margin-top:14px;font-size:clamp(15px,2.2vw,19px);max-width:62ch}
+.pills{display:flex;flex-wrap:wrap;gap:8px;margin-top:24px}
+.pill{border:1px solid var(--line);background:var(--panel);color:var(--mut);padding:6px 12px;border-radius:999px;font-size:13px}
+.pill b{color:var(--fg)}
+section{padding:44px 0;border-bottom:1px solid var(--line)}
+h2{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--acc);margin-bottom:20px;font-weight:700}
+h3{font-size:17px;margin:22px 0 8px}
+p{color:var(--mut);max-width:70ch}
+p+p{margin-top:12px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px;margin-top:8px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px}
+.card .k{font-size:12px;color:var(--mut);text-transform:uppercase;letter-spacing:.07em}
+.card .v{font-size:21px;font-weight:700;margin-top:6px}
+.card .v.ok{color:var(--ok)}
+table{width:100%;border-collapse:collapse;margin-top:8px;font-size:14px;display:block;overflow-x:auto}
+th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);white-space:nowrap}
+th{color:var(--mut);font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.06em}
+code,.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:13px}
+code{background:#122244;border:1px solid var(--line);padding:2px 6px;border-radius:5px;color:#C9D9EF;word-break:break-all}
+a{color:var(--acc);text-decoration:none}
+a:hover{text-decoration:underline}
+ul{color:var(--mut);padding-left:20px;max-width:70ch}
+li{margin:7px 0}
+.note{background:#122244;border:1px solid #122244;border-left:3px solid #122244;padding:14px 16px;border-radius:8px;margin-top:18px}
+.note p{color:#122244;max-width:none}
+footer{padding:40px 0 64px;color:var(--mut);font-size:14px}
+.links{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+.btn{border:1px solid var(--line);background:var(--panel);padding:10px 16px;border-radius:10px;font-size:14px;font-weight:600;color:var(--fg)}
+.btn:hover{border-color:var(--acc);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="logo">
+    <svg class="mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52" width="52" height="52"><title>Coinkins</title><circle cx="26.00" cy="26.00" r="26.00" fill="#122244"/><path d="M 41.4017 37.9599 A 19.5000 19.5000 0 1 1 41.4017 14.0401 A 2.8438 2.8438 0 0 1 36.9095 17.5284 A 13.8125 13.8125 0 1 0 36.9095 34.4716 A 2.8438 2.8438 0 0 1 41.4017 37.9599 Z" fill="#EAF1FA"/><circle cx="26.00" cy="26.00" r="9.75" fill="#F3B63A"/></svg>
+      <div style="color:var(--mut);font-size:13px">building on Arc, in public</div>
+    </div>
+  </div>
+  <h1>Little coins on a chain where gas <em>is</em> money.</h1>
+  <p class="tag">
+    Arc is Circle's stablecoin-native L1 — gas is paid in USDC. We are building
+    an NFT project here early and documenting every step. Every number on this
+    page is verifiable on-chain.
+  </p>
+  <div class="pills">
+    <span class="pill">chain <b>Arc · 5042</b></span>
+    <span class="pill">gas token <b>USDC</b></span>
+    <span class="pill">rail <b>OpenSea SeaDrop</b></span>
+    <span class="pill">status <b>pre-launch</b></span>
+  </div>
+</header>
+
+<section>
+  <h2>Proof of work, not promises</h2>
+  <p>
+    We deployed a complete SeaDrop collection on Arc mainnet — allowlist mint
+    and paid public mint — to prove the full pipeline works before asking
+    anyone for anything.
+  </p>
+  <div class="grid">
+    <div class="card"><div class="k">transactions</div><div class="v ok">9 / 9</div></div>
+    <div class="card"><div class="k">total gas cost</div><div class="v">$0.2248</div></div>
+    <div class="card"><div class="k">allowlist mint</div><div class="v ok">works</div></div>
+    <div class="card"><div class="k">paid public mint</div><div class="v ok">works</div></div>
+  </div>
+  <h3>Verify it yourself</h3>
+  <table>
+    <tr><th>what</th><th>transaction hash</th></tr>
+    <tr><td>deploy ERC721SeaDrop</td><td class="mono">0x717a8030e952c2ab08e7ed61a0e6f8d13932e4655ebe6e540c3cdef5386fef11</td></tr>
+    <tr><td>allowlist mint (free)</td><td class="mono">0x30e5d30dbeb86c1d108d8be544962c7846d7292caca57c8e5859da472cb65c79</td></tr>
+    <tr><td>public mint (0.1 USDC)</td><td class="mono">0x67de2bc47826a45dca9c7255c0e4449fdbdeb6be0d6b3d935dc0b9550ac82590</td></tr>
+  </table>
+  <p style="margin-top:14px">
+    Test contract: <code>0xd80266b6f0c021e6a606a51d10c19e9c5cc9a846</code>
+  </p>
+  <div class="note">
+    <p>
+      <b>That contract is a test harness, not the collection.</b> It has 2 of
+      1000 minted, so it can never be verified — on purpose. The real Coinkins
+      collection has not launched, and we will not announce a date until we
+      have the community to support it.
+    </p>
+  </div>
+</section>
+
+<section>
+  <h2>Things we learned the hard way</h2>
+  <ul>
+    <li><b>Arc's gas token is USDC at 18 decimals</b> — not 6. Assume 6 and you are wrong by 10<sup>12</sup>.</li>
+    <li><b>Arc's SeaDrop is authentic.</b> We byte-diffed it against Ethereum's: 34 bytes differ out of 21,081 — the chainId and the derived EIP-712 domain separator. Nothing else.</li>
+    <li><b>Do not deploy your own SeaDrop.</b> Our own compile differed in 38.7% of bytes. Use <code>0x00005EA00Ac477B1030CE78506496e8C2dE24bf5</code>.</li>
+    <li><b>Never hardcode gas.</b> We watched base fee move 31 → 299 gwei in hours. <code>eth_maxPriorityFeePerGas</code> returns 0 on Arc — trust it and your transaction hangs forever.</li>
+    <li><b>On-chain metadata is expensive.</b> ~890 characters costs ~697,000 gas. We wasted $0.0126 on an out-of-gas revert learning that.</li>
+    <li><b>ERC721A token IDs start at 1</b>, not 0.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>The uncomfortable part</h2>
+  <p>
+    We scanned 100 NFT collections on Arc. <b>Zero are verified. Zero have any
+    volume.</b> We are not going to pretend there is a crowd here yet.
+  </p>
+  <p>
+    So we are doing it in the honest order: build the thing, prove it works,
+    publish what we learned, and grow a real community <em>before</em> minting
+    anything. If nobody shows up, we would rather find that out now than sell
+    a thousand items to nobody.
+  </p>
+</section>
+
+<section>
+  <h2>Follow the build</h2>
+  <div class="links">
+    <a class="btn" href="https://x.com/coinkins" rel="noopener">X / Twitter</a>
+    <a class="btn" href="https://t.me/coinkins" rel="noopener">Telegram</a>
+    <a class="btn" href="https://opensea.io/coinkins" rel="noopener">OpenSea</a>
+    <a class="btn" href="https://github.com/0xRadikal/Coinkins" rel="noopener">GitHub (full research)</a>
+  </div>
+</section>
+
+<footer>
+  <p>
+    Coinkins is an independent project. It is not affiliated with, endorsed by,
+    or sponsored by Circle, Arc, or OpenSea. Nothing here is financial advice.
+    NFTs carry risk, including total loss of value.
+  </p>
+</footer>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,101 @@
+{
+  "apple": {
+    "ink_fraction": 0.4022,
+    "edge_density": 0.0205,
+    "components": 2,
+    "holes": 0,
+    "stroke_min_frac": 0.2083,
+    "bbox_fill": 0.6357,
+    "aspect": 0.815
+  },
+  "cisco": {
+    "ink_fraction": 0.1042,
+    "edge_density": 0.0288,
+    "components": 14,
+    "holes": 1,
+    "stroke_min_frac": 0.0417,
+    "bbox_fill": 0.2526,
+    "aspect": 1.897
+  },
+  "google": {
+    "ink_fraction": 0.2976,
+    "edge_density": 0.0265,
+    "components": 1,
+    "holes": 0,
+    "stroke_min_frac": 0.1146,
+    "bbox_fill": 0.3935,
+    "aspect": 0.974
+  },
+  "mastercard": {
+    "ink_fraction": 0.3846,
+    "edge_density": 0.025,
+    "components": 3,
+    "holes": 0,
+    "stroke_min_frac": 0.2083,
+    "bbox_fill": 0.799,
+    "aspect": 1.618
+  },
+  "nike": {
+    "ink_fraction": 0.0702,
+    "edge_density": 0.0177,
+    "components": 1,
+    "holes": 0,
+    "stroke_min_frac": 0.1042,
+    "bbox_fill": 0.2551,
+    "aspect": 2.857
+  },
+  "paypal": {
+    "ink_fraction": 0.4014,
+    "edge_density": 0.0272,
+    "components": 3,
+    "holes": 0,
+    "stroke_min_frac": 0.1615,
+    "bbox_fill": 0.608,
+    "aspect": 0.848
+  },
+  "samsung": {
+    "ink_fraction": 0.071,
+    "edge_density": 0.0249,
+    "components": 7,
+    "holes": 0,
+    "stroke_min_frac": 0.0365,
+    "bbox_fill": 0.5958,
+    "aspect": 6.544
+  },
+  "spotify": {
+    "ink_fraction": 0.4975,
+    "edge_density": 0.0306,
+    "components": 1,
+    "holes": 3,
+    "stroke_min_frac": 0.2031,
+    "bbox_fill": 0.6421,
+    "aspect": 1.0
+  },
+  "stripe": {
+    "ink_fraction": 0.3766,
+    "edge_density": 0.0226,
+    "components": 1,
+    "holes": 0,
+    "stroke_min_frac": 0.1979,
+    "bbox_fill": 0.6788,
+    "aspect": 0.714
+  },
+  "visa": {
+    "ink_fraction": 0.1336,
+    "edge_density": 0.0244,
+    "components": 4,
+    "holes": 1,
+    "stroke_min_frac": 0.0625,
+    "bbox_fill": 0.5297,
+    "aspect": 3.096
+  },
+  "x": {
+    "ink_fraction": 0.1926,
+    "edge_density": 0.0337,
+    "components": 1,
+    "holes": 1,
+    "stroke_min_frac": 0.0521,
+    "bbox_fill": 0.2531,
+    "aspect": 0.978
+  }
+}
